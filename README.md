@@ -1,6 +1,6 @@
 # gobluos
 
-Rudimentary [bluos][BluOS] client for Go.
+Rudimentary [BluOS][bluos] client for Go.
 
 **Note**: this is far from complete. I'm adding features as I need
 them and don't aim for this client to be complete. If you need a
