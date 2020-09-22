@@ -1,0 +1,6 @@
+player_url = "http://192.168.1.114:11010"
+
+[mqtt]
+broker = "tcp://192.168.1.116:1883"
+client_id = "fobctl"
+key_fob_topic = "zwave/19/91/1/#"
