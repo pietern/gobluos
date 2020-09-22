@@ -1,0 +1,10 @@
+[Unit]
+Description=Tool to control BluOS player with Z-Wave Fibaro KeyFob
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/fobctl -config /etc/fobctl.toml
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
